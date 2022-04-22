@@ -1,13 +1,13 @@
 body {font-family: Arial, Helvetica, sans-serif}
 * {box-sizing: border-box;}
-*{background-color: black;}
+*{background-color: whitesmoke;}
 
 h2{
   font-family: 'Babylonica', cursive;
   text-align: center;
   font-size: 80px;
   margin: 0%;
-  color: #f2f2f2;
+  color: black;
 }
 
 .bg-img {
@@ -42,7 +42,7 @@ h2{
 /* Navbar links */
 .topnav a {
   float: left;
-  color: #ffffff;
+  color: black;
   text-align: center;
   padding: 22px 22px;
   text-decoration: none;
@@ -57,7 +57,7 @@ h2{
 }
 
 .about-sec{
-  color: #f2f2f2;
+  color: black;
   margin:0%
 
 }
@@ -65,7 +65,7 @@ h2{
   text-align: center;
   margin: 2%;
   font-size: 50px;
-  color:#ffffff;
+  color:black;
   font-family: 'Roboto', sans-serif;
 }
 * {
@@ -108,7 +108,7 @@ h2{
   background-color: transparent;
   width: 300px;
   height: 200px;
-  border: 1px solid #f1f1f1;
+  border: 1px solid black;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -138,14 +138,14 @@ h2{
 
 /* Style the front side (fallback if image is missing) */
 .flip-box-front {
-  background-color: #bbb;
+  background-color: black;
   color: black;
 }
 
 /* Style the back side */
 .flip-box-back {
   background-color: dodgerblue;
-  color: white;
+  color: black;
   transform: rotateY(180deg);
 } 
 /*flip box*/
@@ -178,7 +178,7 @@ h2{
 
 .search > h1,
 .search > h3 {
-  color: white;
+  color: black;
   margin-bottom: 15px;
   text-shadow: 0 1px #0091c2;
 }
@@ -190,7 +190,7 @@ h2{
 
 .search > div:after {
   content: "";
-  background: white;
+  background: black;
   width: 4px;
   height: 20px;
   position: absolute;
@@ -200,7 +200,7 @@ h2{
 }
 
 .search > div > input {
-  color: white;
+  color: black;
   font-size: 16px;
   background: transparent;
   width: 50px;
@@ -515,3 +515,61 @@ input[type="radio"]{
 }
 
 /*footer*/
+
+/******************************************************************************
+BLOG SPECIFIC STYLES START HERE 
+******************************************************************************/
+#searchInput {
+  font-size: 20px; 
+  width: 400px;
+  background-color: white;
+}
+
+#primaryContent{
+  margin: auto;
+  width: 80%;
+  margin-left: 100px;
+}
+button {
+	  background-color: blueviolet;
+    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color:#443328;
+    font-weight:bold;
+    border: none;
+    border-radius: 2em;
+
+
+
+}
+.button :hover{
+  background-color: rgb(67, 12, 118);
+}
+
+#resultsList{
+	margin-top:2.5em;
+  background-color: #9DBFAF;
+}
+.resultItem{
+	background: #f8f5f1;
+  color: #0091c2;
+	border-radius:3px;
+  	margin: 10px 10px 10px 0;
+  	padding:10px;
+  	text-align: left;
+  	white-space: normal;
+  	font-style: italic;
+}
+.resultItem:hover{
+	border-left:5px solid #443328;
+}
+
+.resultTitle{
+}
+
+
+
+.resultSnippet a{
+	color:#443328;
+}
