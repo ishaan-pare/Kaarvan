@@ -1,4 +1,3 @@
-// JavaScript Document
 let resultsList = document.getElementById('resultsList');
 let searchForm = document.getElementById('searchForm');
 let searchInput = document.getElementById('searchInput');
